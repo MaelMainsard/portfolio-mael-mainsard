@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "navbar":{
+      "home": "Beranda",
+      "skills": "Keterampilan",
+      "projects": "Proyek",
+      "reviews": "Ulasan",
+      "contact": "Hubungi saya"
+    }
+  }
+}

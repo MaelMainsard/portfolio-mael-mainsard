@@ -1,0 +1,11 @@
+{
+    "translation": {
+      "navbar":{
+        "home": "Accueil",
+        "skills": "Compétences",
+        "projects": "Projets",
+        "reviews": "Avis",
+        "contact": "Contactez-moi"
+      }
+    }
+}

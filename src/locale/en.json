@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "navbar":{
+      "home": "Home",
+      "skills": "Skills",
+      "projects": "Projects",
+      "reviews": "Reviews",
+      "contact": "Let's get in touch !"
+    }
+  }
+}
