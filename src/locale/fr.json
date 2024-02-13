@@ -6,6 +6,22 @@
         "projects": "Projets",
         "reviews": "Avis",
         "contact": "Contactez-moi"
+      },
+      "one": {
+        "text-1": "Salut, je suis Maël",
+        "text-2": "Développeur Full Stack",
+        "text-3": "Je m'appelle Maël Mainsard, j'ai 20 ans et je suis actuellement alternant à BPCE - IT (Nantes) sur un poste de développement informatique (Back-End). En tant que passionné de développement, je vous souhaite une bonne lecture de ce portofolio.",
+        "text-4": "Cliquez ici pour obtenir mon CV"
+      },
+      "two": {
+        "text-1": "Compétences",
+        "text-2": "Voici un aperçu des compétences que j'ai pu acquérir depuis le début de ma carrière",
+        "text-3": "Développement mobile",
+        "text-4": "Développement logiciel",
+        "text-5": "Développement web",
+        "text-6": "Développement IOT",
+        "text-7": "Gestion de projets",
+        "text-8": "Liste des techno"
       }
     }
 }

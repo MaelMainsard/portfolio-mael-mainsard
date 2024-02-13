@@ -6,6 +6,22 @@
       "projects": "Projects",
       "reviews": "Reviews",
       "contact": "Let's get in touch !"
+    },
+    "one": {
+      "text-1": "Hi, I'm Maël",
+      "text-2": "Full Stack developper",
+      "text-3": "My name is Maël Mainsard, I am 20 years old and I am currently working at BPCE - IT (Nantes) in an IT development position (Back-End). As a development enthusiast, I hope you enjoy reading this portfolio.",
+      "text-4": "Click here to get my CV"
+    },
+    "two": {
+      "text-1": "Skills",
+      "text-2": "Here is an overview of the skills I have acquired since the start of my career",
+      "text-3": "Mobile development",
+      "text-4": "Software development",
+      "text-5": "Web development",
+      "text-6": "IOT development",
+      "text-7": "Project management",
+      "text-8": "Open technology list"
     }
   }
 }

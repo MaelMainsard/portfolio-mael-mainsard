@@ -6,6 +6,22 @@
       "projects": "Proyek",
       "reviews": "Ulasan",
       "contact": "Hubungi saya"
+    },
+    "one": {
+      "text-1": "Hai, saya Maël",
+      "text-2": "Pengembang Stack Penuh",
+      "text-3": "Nama saya Maël Mainsard, umur saya 20 tahun dan saat ini saya bekerja di BPCE - IT (Nantes) dengan posisi pengembangan IT (Back-End). Sebagai penggila pengembangan, saya harap Anda menikmati membaca portofolio ini.",
+      "text-4": "Klik di sini untuk mendapatkan CV saya"
+    },
+    "two": {
+      "text-1": "Keterampilan",
+      "text-2": "Berikut ini ikhtisar keterampilan yang saya peroleh sejak awal karir saya",
+      "text-3": "Pengembangan seluler",
+      "text-4": "Pengembangan perangkat lunak",
+      "text-5": "Pengembangan web",
+      "text-6": "Pengembangan IOT",
+      "text-7": "Manajemen proyek",
+      "text-8": "Buka daftar teknologi"
     }
   }
 }
