@@ -19,7 +19,7 @@ export const NavBar = () => {
   ];
 
   return (
-    <Navbar disableAnimation isBordered>
+    <Navbar isBordered>
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle />
       </NavbarContent>

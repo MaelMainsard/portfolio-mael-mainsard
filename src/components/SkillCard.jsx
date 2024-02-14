@@ -6,6 +6,9 @@ import LaptopIcon from '@mui/icons-material/Laptop';
 import WebIcon from '@mui/icons-material/Web';
 import HomeMaxIcon from '@mui/icons-material/HomeMax';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import StorageIcon from '@mui/icons-material/Storage';
+
+import { useTranslation } from "react-i18next";
 
 const handleItemClick = (link) => {
     window.open(link, '_blank');
@@ -16,7 +19,8 @@ const iconMap = {
     laptop: LaptopIcon,
     web: WebIcon,
     home: HomeMaxIcon,
-    accountTree: AccountTreeIcon
+    accountTree: AccountTreeIcon,
+    storageIcon: StorageIcon
 };
 
 const dataMap = {
@@ -52,10 +56,18 @@ const dataMap = {
         { label: 'GitHub', image: '/github.png', alt: 'GitHub', link: 'https://github.com' },
         { label: 'Jira', image: '/jira.png', alt: 'Jira', link: 'https://www.atlassian.com' },
         { label: 'Trello', image: '/trello.png', alt: 'Trello', link: 'https://www.trello.com' },
+    ],
+    storageIcon: [
+        { label: 'Postgresql', image: '/postgresql.png', alt: 'Postgresql', link: 'https://www.postgresql.org' },
+        { label: 'Mysql', image: '/mysql.png', alt: 'Mysql', link: 'https://www.mysql.com' },
+        { label: 'Firebase', image: '/firebase.png', alt: 'Firebase', link: 'https://firebase.google.com' },
+        { label: 'AWS', image: '/aws.png', alt: 'AWS', link: 'https://aws.amazon.com' },
     ]
 };
 
-export const SkillCard = ({ icon, text, t }) => {
+export const SkillCard = ({ icon, text }) => {
+    
+    const { t } = useTranslation();
     const IconComponent = iconMap[icon];
     const data = dataMap[icon] || [];
     return (

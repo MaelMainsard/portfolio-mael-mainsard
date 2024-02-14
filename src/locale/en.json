@@ -21,7 +21,23 @@
       "text-5": "Web development",
       "text-6": "IOT development",
       "text-7": "Project management",
-      "text-8": "Open technology list"
+      "text-8": "Open technology list",
+      "text-9": "Database"
+    },
+    "three":{
+      "text-1": "Discover me",
+      "text-2": "Click on one of the menu tabs below to find out more about me",
+      "text-3": "My projects",
+      "text-4": "Professional experiences",
+      "text-5": "My certifications",
+      "text-6": "International",
+      "text-7": "Intrigued ?",
+      "text-8": "Learn more",
+      "text-9": "Project type",
+      "text-10": "Mobile application",
+      "text-11": "Rest API",
+      "text-12": "Frontend type",
+      "text-13": "Backend type"
     }
   }
 }

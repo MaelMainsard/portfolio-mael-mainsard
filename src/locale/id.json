@@ -21,7 +21,23 @@
       "text-5": "Pengembangan web",
       "text-6": "Pengembangan IOT",
       "text-7": "Manajemen proyek",
-      "text-8": "Buka daftar teknologi"
+      "text-8": "Buka daftar teknologi",
+      "text-9": "Pangkalan data"
+    },
+    "three":{
+      "text-1": "Temukan saya",
+      "text-2": "Klik salah satu tab menu di bawah untuk mengetahui lebih lanjut tentang saya",
+      "text-3": "Proyek saya",
+      "text-4": "Pengalaman profesional",
+      "text-5": "Sertifikasi saya",
+      "text-6": "Internasional",
+      "text-7": "Merencanakan?",
+      "text-8": "Belajarlah lagi",
+      "text-9": "Jenis proyek",
+      "text-10": "Aplikasi seluler",
+      "text-11": "Istirahat API",
+      "text-12": "Tipe depan",
+      "text-13": "Jenis backend"
     }
   }
 }

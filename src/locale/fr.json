@@ -21,7 +21,23 @@
         "text-5": "Développement web",
         "text-6": "Développement IOT",
         "text-7": "Gestion de projets",
-        "text-8": "Liste des techno"
+        "text-8": "Liste des techno",
+        "text-9": "Bases de données"
+      },
+      "three":{
+        "text-1": "Découvrez-moi",
+        "text-2": "Cliquez sur un des onglets du menu ci-dessous pour en savoir plus sur moi",
+        "text-3": "Mes projets",
+        "text-4": "Expériences professionnelles",
+        "text-5": "Mes certifications",
+        "text-6": "L'international",
+        "text-7": "Intrigué ?",
+        "text-8": "En savoir plus",
+        "text-9": "Type de projet",
+        "text-10": "Application mobile",
+        "text-11": "API Rest",
+        "text-12": "Type de frontend",
+        "text-13": "Type de backend"
       }
     }
 }
