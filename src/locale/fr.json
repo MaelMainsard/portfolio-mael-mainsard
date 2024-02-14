@@ -37,7 +37,16 @@
         "text-10": "Application mobile",
         "text-11": "API Rest",
         "text-12": "Type de frontend",
-        "text-13": "Type de backend"
+        "text-13": "Type de backend",
+
+        "text-14": "Fermer",
+        "text-15": "Info du projet",
+        "projects": {
+          "planmysearch": {
+            "title" : "Plan My Search | Suivit de candidature",
+            "description" : "L'application que j'ai développée en Flutter avec Firebase comme base de données est un outil révolutionnaire conçu pour simplifier le processus de recherche d'emploi. En combinant la flexibilité de Flutter avec la puissance de Firebase, nous avons créé une plateforme intuitive et efficace qui permet aux chercheurs d'emploi de planifier et d'organiser leurs candidatures de manière stratégique."
+          }
+        }
       }
     }
 }

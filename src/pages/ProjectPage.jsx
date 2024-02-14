@@ -10,9 +10,9 @@ export const ProjectPage = () => {
     const { t } = useTranslation();
     
     const projetsList = [
-        { img: '/planmysearch.png', type: t('three.text-10'), front: 'Flutter', back: 'Firebase' },
-        { img: '/kiomdawifi.png', type: t('three.text-10'), front: 'Flutter', back: 'Firebase' },
-        { img: '/kiomdaapi.png', type: t('three.text-11'), front: 'Node JS', back: 'Firebase' },
+        {name: 'planmysearch', img: '/planmysearch.png', type: t('three.text-10'), front: 'Flutter', back: 'Firebase' },
+        {name: 'kiomdawifi', img: '/kiomdawifi.png', type: t('three.text-10'), front: 'Flutter', back: 'Firebase' },
+        {name: 'kiomdaapi', img: '/kiomdaapi.png', type: t('three.text-11'), front: 'Node JS', back: 'Firebase' },
     ];
 
     
