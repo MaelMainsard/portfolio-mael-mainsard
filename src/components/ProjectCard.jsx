@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
-import {Card, CardFooter, Button} from "@nextui-org/react";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import {Card, CardFooter, Button, Image} from "@nextui-org/react";
 
 export const ProjectCard = ({ img }) => {
     const { t } = useTranslation();
@@ -11,7 +10,7 @@ export const ProjectCard = ({ img }) => {
             radius="lg"
             className="border-none"
         >
-            <LazyLoadImage
+            <Image
                 alt="Woman listing to music"
                 className="object-cover"
                 height={200}
