@@ -37,7 +37,34 @@
       "text-10": "Aplikasi seluler",
       "text-11": "Istirahat API",
       "text-12": "Tipe depan",
-      "text-13": "Jenis backend"
+      "text-13": "Jenis backend",
+      "text-14": "Tutup",
+      "text-15": "Info proyek",
+      "text-16": "Perangkat Lunak",
+      "text-17": "Robotika",
+      "text-18": "Teknologi yang digunakan",
+      "projects": {
+        "planmysearch": {
+          "title": "Rencana Pencarian Saya | Pelacakan Aplikasi",
+          "description": "Aplikasi yang saya kembangkan di Flutter dengan Firebase sebagai database adalah alat yang dirancang untuk menyederhanakan proses pencarian kerja. Dengan menggabungkan fleksibilitas Flutter dan kekuatan Firebase, saya menciptakan platform intuitif dan efisien yang memungkinkan pencari kerja untuk merencanakan dan mengatur aplikasi mereka secara strategis."
+        },
+        "kiomdawifi": {
+          "title": "Kiomda Wifi | Catatan data",
+          "description": "Selama gelar sarjana saya, saya bekerja di sebuah perusahaan yang mengkhususkan diri dalam pembuatan kotak hitung. Biasanya, data yang dikumpulkan oleh kotak-kotak ini dikirim melalui jaringan IoT. Untuk mengatasi masalah konektivitas, saya membuat aplikasi seluler di Flutter. Aplikasi ini memungkinkan Anda mengambil data melalui koneksi WiFi lokal jika tidak ada jaringan. Kemudian, ketika koneksi dibuat kembali, data secara otomatis dikirim ke database data Firebase. Solusi ini membantu menjaga pengumpulan data di lingkungan di mana jaringan tidak stabil dan membantu menarik pelanggan baru ke bisnis kami."
+        },
+        "kiomdaapi": {
+          "title": "API Kiomda",
+          "description": "Dalam pengalaman saya di perusahaan yang sama, saya berkesempatan untuk mengembangkan REST API yang sesuai dengan standar OpenAPI, disertai dengan situs khusus untuk memfasilitasi manipulasi API ini. API itu sendiri diimplementasikan di Node.js. js, menyediakan kerangka kerja yang kuat dan fleksibel untuk mengelola permintaan dan respons. Backend dihosting di Firebase, menyediakan infrastruktur yang andal dan skalabel untuk menyimpan dan mengelola data. Sedangkan untuk frontend, telah dikembangkan di React, menyediakan sistem yang responsif dan intuitif antarmuka pengguna untuk berinteraksi dengan API. Arsitektur yang komprehensif dan konsisten ini membantu menciptakan solusi yang efisien dan ramah pengguna, sekaligus memperkuat reputasi perusahaan kami atas teknologi inovatif dan kualitas layanan."
+        },
+        "deltadore": {
+          "title": "Perangkat lunak manajemen",
+          "description": "Selama pengalaman profesional sebelumnya, saya mengembangkan perangkat lunak dalam C# yang memiliki fungsi memindai kode batang kartu elektronik, sehingga memungkinkan untuk memulihkan informasi penting untuk proses produksi. Perangkat lunak ini menawarkan antarmuka ramah pengguna yang memungkinkan pengguna dapat memindai barcode kartu elektronik dengan cepat dan efisien, sehingga memudahkan pengumpulan informasi penting seperti nomor seri, tanggal pembuatan, dan data relevan lainnya. Dengan solusi ini, perusahaan dapat mempersingkat dan mempercepat proses produksi, sehingga meningkatkan efisiensi operasional dan kualitas produk yang dikirim."
+        },
+        "bobby": {
+          "title": "Boby si robot",
+          "description": "Selama DUT saya, saya merancang robot yang dikendalikan oleh kartu Raspberry Pi. Robot tersebut dapat dikontrol dari jarak jauh melalui Bluetooth menggunakan aplikasi seluler dan melakukan pengenalan wajah menggunakan kamera dan OpenCV. Aplikasi tersebut memungkinkan kontrol intuitif terhadap robot, sedangkan pengenalan wajah memungkinkannya bereaksi terhadap kehadiran wajah. Untuk lebih jelasnya, Anda dapat membaca laporan di https://compte-rendu-bobby-er4 .webnode.fr. Proyek ini memperkuat keterampilan saya dalam pemrograman, elektronik, dan gambar pemrosesan, sambil mengembangkan solusi inovatif."
+        }
+      }
     }
   }
 }

@@ -37,7 +37,34 @@
       "text-10": "Mobile application",
       "text-11": "Rest API",
       "text-12": "Frontend type",
-      "text-13": "Backend type"
+      "text-13": "Backend type",
+      "text-14": "Close",
+      "text-15": "Project info",
+      "text-16": "Software",
+      "text-17": "Robotics",
+      "text-18": "Technologies used",
+      "projects": {
+        "planmysearch": {
+          "title": "My Search Plan | Application tracking",
+          "description": "The application I developed in Flutter with Firebase as a database is a tool designed to simplify the job search process. By combining the flexibility of Flutter with the power of Firebase, I created an intuitive and efficient platform that allows job seekers to strategically plan and organize their applications."
+        },
+        "kiomdawifi": {
+          "title": "Kiomda Wifi | Data record",
+          "description": "During my undergraduate degree, I worked for a company specializing in the manufacturing of counting boxes. Normally, the data collected by these boxes is sent via an IoT network. To remedy the problems connectivity, I created a mobile application in Flutter. This application allows you to retrieve data via a local WiFi connection in case of no network. Then, when the connection is reestablished, the data is automatically sent to a database Firebase data. This solution helped maintain data collection in environments where the network was unstable and helped attract new customers to our business."
+        },
+        "kiomdaapi": {
+          "title": "Kiomda API",
+          "description": "In my experience within the same company, I had the opportunity to develop a REST API compliant with OpenAPI standards, accompanied by a dedicated site to facilitate the manipulation of this API. The API itself -itself is implemented in Node.js, providing a robust and flexible framework for managing requests and responses. The backend is hosted on Firebase, providing a reliable and scalable infrastructure for storing and managing data. As for the frontend, it has was developed in React, providing a responsive and intuitive user interface for interacting with the API. This comprehensive and consistent architecture helped create an efficient and user-friendly solution, while reinforcing our company's reputation for innovative technology and quality of service."
+        },
+        "deltadore": {
+          "title": "Management software",
+          "description": "During a previous professional experience, I developed software in C# which had the function of scanning the barcodes of electronic cards, thus making it possible to recover essential information for the production process This software offered a user-friendly interface that allowed users to quickly and efficiently scan electronic card barcodes, making it easier to collect critical information such as serial numbers, manufacturing dates, and other relevant data. With this solution, the company was able to streamline and accelerate the production process, thereby improving operational efficiency and the quality of delivered products."
+        },
+        "bobby": {
+          "title": "Boby the robot",
+          "description": "During my DUT, I designed a robot controlled by a Raspberry Pi card. It could be controlled remotely via Bluetooth using a mobile application and performed facial recognition using the camera and OpenCV. The application allowed intuitive control of the robot, while facial recognition allowed it to react to the presence of faces. For more details, you can consult the report at https://compte-rendu-bobby-er4 .webnode.fr. This project strengthened my skills in programming, electronics and image processing, while developing innovative solutions."
+        }
+      }
     }
   }
 }

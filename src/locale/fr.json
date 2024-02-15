@@ -41,11 +41,32 @@
 
         "text-14": "Fermer",
         "text-15": "Info du projet",
+        "text-16": "Logiciel",
+        "text-17": "Robotique",
+        "text-18": "Technologies utilisées",
+
         "projects": {
           "planmysearch": {
             "title" : "Plan My Search | Suivit de candidature",
-            "description" : "L'application que j'ai développée en Flutter avec Firebase comme base de données est un outil révolutionnaire conçu pour simplifier le processus de recherche d'emploi. En combinant la flexibilité de Flutter avec la puissance de Firebase, nous avons créé une plateforme intuitive et efficace qui permet aux chercheurs d'emploi de planifier et d'organiser leurs candidatures de manière stratégique."
+            "description" : "L'application que j'ai développé en Flutter avec Firebase comme base de données est un outil conçu pour simplifier le processus de recherche d'emploi. En combinant la flexibilité de Flutter avec la puissance de Firebase, j'ai créé une plateforme intuitive et efficace qui permet aux chercheurs d'emploi de planifier et d'organiser leurs candidatures de manière stratégique."
+          },
+          "kiomdawifi": {
+            "title" : "Kiomda Wifi | Relevé de données",
+            "description" : "A l'ocasion de mon alternance de Licence, j'ai travaillé pour une entreprise spécialisée dans la fabrication de boîtiers de comptage. Normalement, les données collectées par ces boîtiers sont envoyées via un réseau IoT. Pour remédier aux problèmes de connectivité, j'ai créé une application mobile en Flutter. Cette application permet de récupérer les données via une connexion WiFi locale en cas d'absence de réseau. Ensuite, lorsque la connexion est rétablie, les données sont automatiquement envoyées à une base de données Firebase. Cette solution a permis de maintenir la collecte des données dans des environnements où le réseau est instable et a contribué à attirer de nouveaux clients pour notre entreprise."
+          },
+          "kiomdaapi": {
+            "title": "Kiomda API",
+            "description": "Dans mon expérience au sein de la même entreprise, j'ai eu l'opportunité de développer une API REST conforme aux normes OpenAPI, accompagnée d'un site dédié pour faciliter la manipulation de cette API. L'API elle-même est implémentée en Node.js, offrant une structure robuste et flexible pour gérer les requêtes et les réponses. Le backend est hébergé sur Firebase, offrant ainsi une infrastructure fiable et évolutive pour stocker et gérer les données. Quant au frontend, il a été développé en React, offrant une interface utilisateur réactive et intuitive pour interagir avec l'API. Cette architecture complète et cohérente a permis de créer une solution efficace et conviviale pour les utilisateurs, tout en renforçant la réputation de notre entreprise en matière de technologie innovante et de qualité de service."
+          },
+          "deltadore":{
+            "title" : "Logicel de gestion",
+            "description" : "Au cours d'une expérience professionnelle précédente, j'ai développé un logiciel en C# qui avait pour fonction de scanner les codes-barres des cartes électroniques, permettant ainsi de récupérer des informations essentielles pour le processus de mise en production. Ce logiciel offrait une interface conviviale permettant aux utilisateurs de scanner rapidement et efficacement les codes-barres des cartes électroniques, facilitant ainsi la collecte d'informations critiques telles que les numéros de série, les dates de fabrication et d'autres données pertinentes. Grâce à cette solution, l'entreprise a pu rationaliser et accélérer le processus de production, améliorant ainsi l'efficacité opérationnelle et la qualité des produits livrés."
+          },
+          "bobby":{
+            "title": "Boby le robot",
+            "description": "Pendant mon DUT, j'ai conçu un robot contrôlé par une carte Raspberry Pi. Il pouvait être piloté à distance via Bluetooth grâce à une application mobile et effectuait la reconnaissance faciale à l'aide de la caméra et d'OpenCV. L'application permettait un contrôle intuitif du robot, tandis que la reconnaissance faciale lui permettait de réagir à la présence de visages. Pour plus de détails, vous pouvez consulter le compte rendu sur https://compte-rendu-bobby-er4.webnode.fr . Ce projet a renforcé mes compétences en programmation, électronique et traitement d'image, tout en développant des solutions innovantes."
           }
+
         }
       }
     }

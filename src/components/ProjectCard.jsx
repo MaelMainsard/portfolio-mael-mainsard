@@ -1,9 +1,13 @@
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from "react-i18next";
 import {Divider, Card, CardFooter, Button, Image, Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, useDisclosure } from "@nextui-org/react";
 
-export const ProjectCard = ({ name, img }) => {
+export const ProjectCard = ({ id, img, techno }) => {
     const { t } = useTranslation();
-    const { isOpen, onOpen, onOpenChange } = useDisclosure();
+    const { isOpen, onOpen, onOpenChange } = useDisclosure(); 
 
     return (
         <>
@@ -30,7 +34,7 @@ export const ProjectCard = ({ name, img }) => {
                 <ModalContent>
                     {(onClose) => (
                         <>
-                            <ModalHeader className="flex flex-col gap-1 items-center font-s11 font-bold ">{t(`three.projects.${name}.title`)}</ModalHeader>
+                            <ModalHeader className="flex flex-col gap-1 items-center font-s11 font-bold ">{t(`three.projects.${id}.title`)}</ModalHeader>
                             <Divider/>
                             <ModalBody className='flex flex-col items-center'>
                                 <Image
@@ -42,7 +46,14 @@ export const ProjectCard = ({ name, img }) => {
                                 />
                                 <span className='font-s11 text-md'>{t(`three.text-15`)}</span>
                                 <Divider/>
-                                <p className='font-s11 text-sm opacity-70'>{t(`three.projects.${name}.description`)}</p>
+                                <p className='font-s11 text-sm opacity-70'>{t(`three.projects.${id}.description`)}</p>
+                                <span className='font-s11 text-md'>{t(`three.text-18`)}</span>
+                                <Divider/>
+                                <div className='flex flex-wrap gap-5 justify-center'>
+                                    {techno.map((item, index) => (
+                                        <img key={index} src={item} className=' size-10' alt={`Technologie ${index + 1}`}/>
+                                    ))}
+                                </div>
                             </ModalBody>
                             <ModalFooter>
                                 <Button color="danger" variant="light" onPress={onClose}>

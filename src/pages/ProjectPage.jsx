@@ -10,9 +10,11 @@ export const ProjectPage = () => {
     const { t } = useTranslation();
     
     const projetsList = [
-        {name: 'planmysearch', img: '/planmysearch.png', type: t('three.text-10'), front: 'Flutter', back: 'Firebase' },
-        {name: 'kiomdawifi', img: '/kiomdawifi.png', type: t('three.text-10'), front: 'Flutter', back: 'Firebase' },
-        {name: 'kiomdaapi', img: '/kiomdaapi.png', type: t('three.text-11'), front: 'Node JS', back: 'Firebase' },
+        {id: 'planmysearch', img: '/projects/planmysearch.png', type: t('three.text-10'), front: 'Flutter', back: 'Firebase', techno: ["/technos/flutter.png","/technos/firebase.svg"] },
+        {id: 'kiomdawifi', img: '/projects/kiomdawifi.png', type: t('three.text-10'), front: 'Flutter', back: 'Firebase', techno: ["/technos/flutter.png","/technos/firebase.svg"] },
+        {id: 'kiomdaapi', img: '/projects/kiomdaapi.png', type: t('three.text-11'), front: 'React JS', back: 'Node JS & Firebase',techno: ["/technos/react.png","/technos/nodejs.png","/technos/firebase.svg"] },
+        {id: 'deltadore', img: '/projects/deltadore.png', type: t('three.text-16'), front: 'C#', back: 'XLS',techno: ["/technos/cs.png","/technos/xls.png"] },
+        {id: 'bobby', img: '/projects/bobby.png', type: t('three.text-17'), front: 'Windev Mobile', back: 'Micropython',techno: ["/technos/windev.png","/technos/mycropython.png"] },
     ];
 
     
