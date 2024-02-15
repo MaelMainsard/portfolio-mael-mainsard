@@ -94,7 +94,30 @@
             "description": "Pendant mon DUT, j'ai conçu un robot contrôlé par une carte Raspberry Pi. Il pouvait être piloté à distance via Bluetooth grâce à une application mobile et effectuait la reconnaissance faciale à l'aide de la caméra et d'OpenCV. L'application permettait un contrôle intuitif du robot, tandis que la reconnaissance faciale lui permettait de réagir à la présence de visages. Pour plus de détails, vous pouvez consulter le compte rendu sur https://compte-rendu-bobby-er4.webnode.fr . Ce projet a renforcé mes compétences en programmation, électronique et traitement d'image, tout en développant des solutions innovantes."
           }
 
-        }
-      }
+        },
+
+        "certifications": [
+          {
+            "title": "Baccalauréat STI2D (Science et technologie du développement durable)",
+            "date": "01/07/2020",
+            "image": "/certifications/bac.jpg"
+          },
+          {
+            "title": "DUT GEII (Génie électrique et informatique",
+            "date": "30/06/2022",
+            "image": "/certifications/dut.jpg"
+          },
+          {
+            "title": "Certification Flutter Udemy",
+            "date" : "06/01/2023",
+            "image": "/certifications/flutter-1.jpg"
+          },
+          {
+            "title" : "Licence professionnelle CHIC (Chaîne instrumentale connectée)",
+            "date" : "18/07/2023",
+            "image": "/certifications/licence.jpg"
+          }
+        ]
     }
+  }
 }

@@ -91,6 +91,28 @@
           "date": "2 months - 2021",
           "description": "During the summer of 2021, I worked as a waiter in the restaurant La cour du temple in Combourg. I was able to develop my dynamism as well as my conviviality there."
         }
+      ],
+      "certifications": [
+        {
+          "title": "STI2D Baccalaureate (Science and Technology of Sustainable Development)",
+          "date": "01/07/2020",
+          "image": "/certifications/bac.jpg"
+        },
+        {
+          "title": "DUT GEII (Electrical and Computer Engineering",
+          "date": "06/30/2022",
+          "image": "/certifications/dut.jpg"
+        },
+        {
+          "title": "Flutter Udemy Certification",
+          "date": "06/01/2023",
+          "image": "/certifications/flutter-1.jpg"
+        },
+        {
+          "title": "CHIC professional license (Connected instrumental chain)",
+          "date": "07/18/2023",
+          "image": "/certifications/licence.jpg"
+        }
       ]
     }
   }

@@ -91,6 +91,28 @@
           "date": "2 bulan - 2021",
           "description": "Selama musim panas 2021, saya bekerja sebagai pelayan di restoran La cour du Temple di Combourg. Saya mampu mengembangkan dinamisme serta keramahtamahan saya di sana."
         }
+      ],
+      "certifications": [
+        {
+          "title": "STI2D Baccalaureate (Ilmu Pengetahuan dan Teknologi Pembangunan Berkelanjutan)",
+          "date": "01/07/2020",
+          "image": "/certifications/bac.jpg"
+        },
+        {
+          "title": "DUT GEII (Teknik Elektro dan Komputer",
+          "date": "30/06/2022",
+          "image": "/certifications/dut.jpg"
+        },
+        {
+          "title": "Sertifikasi Flutter Udemy",
+          "date": "06/01/2023",
+          "image": "/certifications/flutter-1.jpg"
+        },
+        {
+          "title": "Lisensi profesional CHIC (Rantai instrumental yang terhubung)",
+          "date": "18/07/2023",
+          "image": "/certifications/licence.jpg"
+        }
       ]
     }
   }
