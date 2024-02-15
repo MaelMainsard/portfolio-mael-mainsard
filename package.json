@@ -16,12 +16,14 @@
     "@nextui-org/react": "^2.2.9",
     "country-flag-icons": "^1.5.9",
     "framer-motion": "^11.0.3",
+    "gsap": "^3.12.5",
     "i18next": "^23.8.2",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^14.0.5",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.161.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
