@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import {Tabs, Tab, Card, CardBody} from "@nextui-org/react";
 import { ProjectPage } from "../pages/ProjectPage";
+import { WorkPage } from "../pages/WorkPage";
 
 export const SectionThree = () => {
     const { t } = useTranslation();
@@ -16,11 +17,7 @@ export const SectionThree = () => {
                         <ProjectPage/>
                     </Tab>
                     <Tab key={t('three.text-4')} title={t('three.text-4')}>
-                        <Card>
-                            <CardBody>
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            </CardBody>
-                        </Card>
+                        <WorkPage/>
                     </Tab>
                     <Tab key={t('three.text-5')} title={t('three.text-5')}>
                         <Card>

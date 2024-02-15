@@ -64,7 +64,34 @@
           "title": "Boby the robot",
           "description": "During my DUT, I designed a robot controlled by a Raspberry Pi card. It could be controlled remotely via Bluetooth using a mobile application and performed facial recognition using the camera and OpenCV. The application allowed intuitive control of the robot, while facial recognition allowed it to react to the presence of faces. For more details, you can consult the report at https://compte-rendu-bobby-er4 .webnode.fr. This project strengthened my skills in programming, electronics and image processing, while developing innovative solutions."
         }
-      }
+      },
+      "works": [
+        {
+          "title": "Back-End Developer at BPCE - IT (Nantes)",
+          "date": "September 2023 - MTN",
+          "description": "Development of a tool for recovering parameters from several server fleets. Then restoring the data to powerBi"
+        },
+        {
+          "title": "R&D Developer at KIOMDA (Lannion)",
+          "date": "September 2022 - August 2023",
+          "description": "Software maintenance in C++, creation of POC and a hybrid mobile application with Flutter."
+        },
+        {
+          "title": "Shelving Agent",
+          "date": "1 year - 2022-2023",
+          "description": "I worked every Saturday for 1 year at the Combourg intermarché to expand my repertoire of skills. And pay for my travels."
+        },
+        {
+          "title": "Software development internship",
+          "date": "6 months - 2022",
+          "description": "During my DUT internship, creation of software in C# for the production team of the company Delta Dore (Bonnemain). Excel database and development on visual studio."
+        },
+        {
+          "title": "Server under restoration",
+          "date": "2 months - 2021",
+          "description": "During the summer of 2021, I worked as a waiter in the restaurant La cour du temple in Combourg. I was able to develop my dynamism as well as my conviviality there."
+        }
+      ]
     }
   }
 }

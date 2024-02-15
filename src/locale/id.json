@@ -64,7 +64,34 @@
           "title": "Boby si robot",
           "description": "Selama DUT saya, saya merancang robot yang dikendalikan oleh kartu Raspberry Pi. Robot tersebut dapat dikontrol dari jarak jauh melalui Bluetooth menggunakan aplikasi seluler dan melakukan pengenalan wajah menggunakan kamera dan OpenCV. Aplikasi tersebut memungkinkan kontrol intuitif terhadap robot, sedangkan pengenalan wajah memungkinkannya bereaksi terhadap kehadiran wajah. Untuk lebih jelasnya, Anda dapat membaca laporan di https://compte-rendu-bobby-er4 .webnode.fr. Proyek ini memperkuat keterampilan saya dalam pemrograman, elektronik, dan gambar pemrosesan, sambil mengembangkan solusi inovatif."
         }
-      }
+      },
+      "works": [
+        {
+          "title": "Pengembang Back-End di BPCE - IT (Nantes)",
+          "date": "September 2023 - MTN",
+          "description": "Pengembangan alat untuk memulihkan parameter dari beberapa armada server. Kemudian memulihkan data ke powerBi"
+        },
+        {
+          "title": "Pengembang Litbang di KIOMDA (Lannion)",
+          "date": "September 2022 - Agustus 2023",
+          "description": "Pemeliharaan perangkat lunak dalam C++, pembuatan POC, dan aplikasi seluler hibrid dengan Flutter."
+        },
+        {
+          "title": "Agen Rak",
+          "date": "1 tahun - 2022-2023",
+          "description": "Saya bekerja setiap hari Sabtu selama 1 tahun di intermarché Combourg untuk memperluas repertoar keterampilan saya. Dan membiayai perjalanan saya."
+        },
+        {
+          "title": "Magang pengembangan perangkat lunak",
+          "date": "6 bulan - 2022",
+          "description": "Selama magang DUT saya, pembuatan perangkat lunak dalam C# untuk tim produksi perusahaan Delta Dore (Bonnemain). Database Excel dan pengembangan di studio visual."
+        },
+        {
+          "title": "Server sedang dalam pemulihan",
+          "date": "2 bulan - 2021",
+          "description": "Selama musim panas 2021, saya bekerja sebagai pelayan di restoran La cour du Temple di Combourg. Saya mampu mengembangkan dinamisme serta keramahtamahan saya di sana."
+        }
+      ]
     }
   }
 }

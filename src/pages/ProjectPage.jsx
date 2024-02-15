@@ -1,5 +1,4 @@
-import React, { useState,useEffect } from 'react';
-
+import react,{useState,useEffect} from 'react';
 import { useTranslation } from "react-i18next";
 import {ProjectCard} from "../components/ProjectCard"
 import {CardHeader,CardFooter,Pagination, Card, CardBody,Dropdown,DropdownTrigger,Button,DropdownMenu,DropdownItem,Checkbox} from "@nextui-org/react";

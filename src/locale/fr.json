@@ -38,12 +38,39 @@
         "text-11": "API Rest",
         "text-12": "Type de frontend",
         "text-13": "Type de backend",
-
         "text-14": "Fermer",
         "text-15": "Info du projet",
         "text-16": "Logiciel",
         "text-17": "Robotique",
         "text-18": "Technologies utilisées",
+
+        "works": [
+          {
+            "title": "Développeur Back-End chez BPCE - IT (Nantes)",
+            "date": "Sept 2023 - MTN",
+            "description": "Développement d'un outil de récupération des paramêtres de plusieurs parc de serveur. Puis réstitution des données sur powerBi"
+          },
+          {
+            "title": "Développeur R&D chez KIOMDA (Lannion)",
+            "date": "Sept 2022 - Août 2023",
+            "description" : "Maintenance de logiciel en C++, réalisation de POC et d'une application mobile hybride avec Flutter."
+          },
+          {
+            "title": "Agent de mise en rayons",
+            "date": "1 an - 2022-2023",
+            "description" : "J'ai travaillé tous les samedis pendant 1 an à l'intermarché de Combourg pour étoffer mon répertoire de compétences. Et payer mes voyages."
+          },
+          {
+            "title": "Stage développement logiciel",
+            "date" : "6 mois - 2022",
+            "description": "Lors de mon stage de DUT, réalisation d'un logiciel en C# pour l'équipe de production de l'entreprise Delta Dore (Bonnemain). Base de données exel et développement sur visual studio."
+          },
+          {
+            "title" : "Serveur en restauration",
+            "date" : "2 mois - 2021",
+            "description" : "Lors de l'été 2021, j'ai travaillé en temps que serveur dans le restaurant La cour du temple à Combourg. J'ai pu y développer mon dynamisme ainsi que ma convivialité."
+          }
+        ],
 
         "projects": {
           "planmysearch": {
