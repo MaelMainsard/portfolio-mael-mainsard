@@ -43,6 +43,9 @@
       "text-16": "Perangkat Lunak",
       "text-17": "Robotika",
       "text-18": "Teknologi yang digunakan",
+      "text-19": "Pilih tujuan",
+      "text-20": "Perjalananku",
+
       "projects": {
         "planmysearch": {
           "title": "Rencana Pencarian Saya | Pelacakan Aplikasi",
@@ -112,6 +115,22 @@
           "title": "Lisensi profesional CHIC (Rantai instrumental yang terhubung)",
           "date": "18/07/2023",
           "image": "/certifications/licence.jpg"
+        }
+      ],
+      "international": [
+        {
+          "name": "Indonesia",
+          "x": -10,
+          "y": 112.8,
+          "img": "/international/indonesia.jpg",
+          "description": "Saya pergi ke Indonesia setiap tahun untuk meningkatkan pengetahuan saya tentang bahasa Indonesia dan menemukan budaya negara ini."
+        },
+        {
+          "name": "Inggris",
+          "x": -8.15,
+          "y": 113.8,
+          "img": "/international/uk.jpg",
+          "description": "Saya bepergian ke London dalam perjalanan bahasa selama 3 minggu. Saya berbicara bahasa Inggris dengan lancar."
         }
       ]
     }

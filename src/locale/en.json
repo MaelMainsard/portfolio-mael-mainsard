@@ -43,6 +43,9 @@
       "text-16": "Software",
       "text-17": "Robotics",
       "text-18": "Technologies used",
+      "text-19": "Select a destination",
+      "text-20": "My travels",
+
       "projects": {
         "planmysearch": {
           "title": "My Search Plan | Application tracking",
@@ -112,6 +115,22 @@
           "title": "CHIC professional license (Connected instrumental chain)",
           "date": "07/18/2023",
           "image": "/certifications/licence.jpg"
+        }
+      ],
+      "international": [
+        {
+          "name": "Indonesia",
+          "x": -10,
+          "y": 112.8,
+          "img": "/international/indonesia.jpg",
+          "description": "I go to Indonesia every year to improve my knowledge of Indonesian and to discover the country's culture."
+        },
+        {
+          "name": "United Kingdom",
+          "x": -8.15,
+          "y": 113.8,
+          "img": "/international/uk.jpg",
+          "description": "I traveled to London on a 3-week language trip. I speak English fluently."
         }
       ]
     }

@@ -43,6 +43,8 @@
         "text-16": "Logiciel",
         "text-17": "Robotique",
         "text-18": "Technologies utilisées",
+        "text-19": "Sélectionnez une destination",
+        "text-20": "Mes voyages",
 
         "works": [
           {
@@ -116,6 +118,23 @@
             "title" : "Licence professionnelle CHIC (Chaîne instrumentale connectée)",
             "date" : "18/07/2023",
             "image": "/certifications/licence.jpg"
+          }
+        ],
+
+        "international": [
+          {
+            "name": "Indonésie",
+            "x": -10,
+            "y": 112.8,
+            "img": "/international/indonesia.jpg",
+            "description": "Je me rends annuellement en Indonésie pour parfaire mon apprentissage de l'indonésien et pour découvrir la culture du pays."
+          },
+          {
+            "name": "Royaume Unis",
+            "x": -8.15,
+            "y": 113.8,
+            "img": "/international/uk.jpg",
+            "description": "Je me suis rendu à Londre lors d'un voyage linguistique de 3 semaines. Je parle couramment anglais."
           }
         ]
     }
