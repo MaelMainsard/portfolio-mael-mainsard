@@ -10,7 +10,7 @@ import CloseIcon from '@mui/icons-material/Close';
 export const InternationalPage = () => {
     const canvasRef = useRef();
     const { t } = useTranslation();
-    const [place, setPlace] = useState(null);
+    const [place, setPlace] = useState(t('three.international', { returnObjects: true })[0]);
 
 
     useEffect(() => {
@@ -52,22 +52,12 @@ export const InternationalPage = () => {
         function animate() {
             requestAnimationFrame(animate)
             renderer.render(scene, camera)
-            if(place == null) {
-                sphere.rotation.y += 0.002
-                gsap.to(group.rotation, {
-                    x: -mouse.y * 0.3,
-                    y: mouse.x * 0.5,
-                    duration: 2
-                })
-            }
-            else {
-                sphere.rotation.y += 0.0001
-                gsap.to(group.rotation, {
-                    x: place.y,
-                    y: place.x,
-                    duration: 0.5
-                })
-            }
+            sphere.rotation.y += 0.0001
+            gsap.to(group.rotation, {
+                x: place.y,
+                y: place.x,
+                duration: 0.5
+            })
         }
 
         animate();
@@ -82,7 +72,7 @@ export const InternationalPage = () => {
         };
     }, [place]);
 
-    const [selectedKeys, setSelectedKeys] = React.useState(new Set([t('three.text-19')]));
+    const [selectedKeys, setSelectedKeys] = React.useState(new Set([t('three.international', { returnObjects: true })[0].name]));
 
     const selectedValue = React.useMemo(
       () => Array.from(selectedKeys).join(", ").replaceAll("_", " "),
@@ -113,11 +103,6 @@ export const InternationalPage = () => {
                         ))}
                     </DropdownMenu>
                 </Dropdown>
-                { place !== null && (
-                    <Button onPress={() => {setPlace(null); setSelectedKeys(new Set([t('three.text-19')]))}}>
-                        <CloseIcon/>
-                    </Button>
-                )}
             </div>
             {place !== null && (
                 <div className='absolute h-full flex justify-center items-center mb-10 ml-52'>

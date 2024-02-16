@@ -133,6 +133,17 @@
           "description": "Saya bepergian ke London dalam perjalanan bahasa selama 3 minggu. Saya berbicara bahasa Inggris dengan lancar."
         }
       ]
+    },
+    "four": {
+      "text-1": "Mereka mempercayai saya",
+      "reviews": [
+        {
+          "name": "Michel MEHEUST",
+          "brand": "/reviews/deltadore.png",
+          "rating": 4.9,
+          "description": "Maël adalah pengembang kompeten yang telah melakukan pekerjaan dengan cermat dan terdokumentasi. Dia efisien sejak hari pertamanya di perusahaan."
+        }
+      ]
     }
   }
 }
