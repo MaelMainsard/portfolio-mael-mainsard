@@ -23,7 +23,7 @@ jobs:
         run: zip -r portfolio.zip bundle-porfolio
 
       - name: Upload d'artéfacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with: 
           name: portfolio.zip
           path: ./
@@ -34,7 +34,7 @@ jobs:
     needs: [ build]
     steps:
       - name: Download Artificat
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v3
         with:
           name: portfolio.zip
           path: ./
