@@ -148,6 +148,18 @@
             "description": "Maël est un développeur compétent qui a réalisé un travail soigné et documenté. Il s'est montré efficace dès son premier jour à l'entreprise. "
           }
         ]
+      },
+      "five": {
+        "text-1": "Contactez-moi et commençons à collaborer ensemble",
+        "text-2": "Nom Prénom",
+        "text-3": "Renseignez votre nom",
+        "text-4": "Adresse email",
+        "text-5": "Rensignez votre adresse email",
+        "text-6": "Message",
+        "text-7": "Renseignez votre message",
+        "text-8": "Envoyer",
+        "text-9": "Une erreur est survenu veuillez réesayer plus tard",
+        "text-10": "Votre message à bien été envoyé"
       }
   }
 }

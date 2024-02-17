@@ -1,9 +1,8 @@
-import { useTranslation } from "react-i18next";
-import {Card, CardBody, Button, Input, Textarea} from "@nextui-org/react";
+import {Card, CardBody} from "@nextui-org/react";
 import { Player } from '@lottiefiles/react-lottie-player';
+import { SignupForm } from '../components/ContactForm';
 
 export const SectionFive = () => {
-    const { t } = useTranslation();
 
 
     return (
@@ -17,21 +16,7 @@ export const SectionFive = () => {
                     >
                     </Player>
                 </div>
-                <div className="flex-1">
-                    <p className="font-s11 font-bold text-2xl text-start mb-4">Contactez-moi et commençons à collaborer ensemble</p>
-                    <div className="flex w-full flex-wrap md:flex-nowrap gap-4 mb-4">
-                        <Input type="email" label="Email" />
-                        <Input type="email" label="Email" placeholder="Enter your email" />
-                    </div>
-                    <Textarea
-                        label="Description"
-                        placeholder="Enter your description"
-                        className="mb-4"
-                    />
-                    <Button className="w-full">
-                        Large
-                    </Button> 
-                </div>
+                <SignupForm  className="flex-1"/>
             </CardBody>
         </Card>
     );
