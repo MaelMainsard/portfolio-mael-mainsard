@@ -1,6 +1,5 @@
 import React from "react";
 import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarContent, NavbarItem, Link, Button,Image} from "@nextui-org/react";
-import {Logo} from "../components/Logo";
 import { useTranslation } from "react-i18next";
 import { LangPicker } from "../components/LangPicker"
 import {ThemeSwitcher} from "../components/ThemeToggle"
@@ -26,14 +25,14 @@ export const NavBar = () => {
 
       <NavbarContent className="sm:hidden pr-3" justify="start">
         <NavbarBrand>
-          <Logo />
+          <img src="/Logo.png" className="w-5 mr-2"/>
           <p className="font-bold text-inherit">Maël Mainsard</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="start">
         <NavbarBrand>
-          <Logo />
+          <img src="/Logo.png" className="w-5 mr-2"/>
           <p className="font-bold text-inherit">Maël Mainsard</p>
         </NavbarBrand>
         <NavbarItem isActive>

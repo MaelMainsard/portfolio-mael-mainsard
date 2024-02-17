@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import {Card, CardBody} from "@nextui-org/react";
-import {Logo} from "../components/Logo";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 export const Footer = () => {
@@ -9,7 +8,7 @@ export const Footer = () => {
         <Card className="rounded-none">
             <CardBody className="p-10 flex flex-row justify-between">
                 <div>
-                    <Logo/>
+                    <img src="/Logo.png" className="w-10"/>
                     <p className="font-bold text-inherit">Maël Mainsard</p>
                 </div>
                 <div className="space-y-2">
