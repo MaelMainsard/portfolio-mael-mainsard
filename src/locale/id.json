@@ -144,6 +144,21 @@
           "description": "Maël adalah pengembang kompeten yang telah melakukan pekerjaan dengan cermat dan terdokumentasi. Dia efisien sejak hari pertamanya di perusahaan."
         }
       ]
+    },
+    "five": {
+      "text-1": "Hubungi saya dan mari mulai berkolaborasi bersama",
+      "text-2": "Nama Belakang Nama Depan",
+      "text-3": "Masukkan nama Anda",
+      "text-4": "Alamat email",
+      "text-5": "Masukkan alamat email Anda",
+      "text-6": "Pesan",
+      "text-7": "Masukkan pesan Anda",
+      "text-8": "Kirim",
+      "text-9": "Terjadi kesalahan, silakan coba lagi nanti",
+      "text-10": "Pesan Anda telah terkirim"
+    },
+    "six": {
+      "text-1": "Jaringan sosial"
     }
   }
 }

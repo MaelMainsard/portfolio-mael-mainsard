@@ -4,6 +4,7 @@ import {SectionTwo} from './sections/section-two'
 import {SectionThree} from './sections/section-three'
 import {SectionFour} from './sections/section-four'
 import {SectionFive} from './sections/section-five'
+import { Footer } from './sections/footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
      <SectionThree/>
      <SectionFour/>
      <SectionFive/>
+     <Footer/>
     </>
   )
 }

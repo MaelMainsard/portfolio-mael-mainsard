@@ -144,6 +144,21 @@
           "description": "Maël is a competent developer who has carried out careful and documented work. He has been efficient since his first day at the company."
         }
       ]
+    },
+    "five": {
+      "text-1": "Contact me and let's start collaborating together",
+      "text-2": "Last Name First Name",
+      "text-3": "Enter your name",
+      "text-4": "Email address",
+      "text-5": "Enter your email address",
+      "text-6": "Message",
+      "text-7": "Enter your message",
+      "text-8": "Send",
+      "text-9": "An error has occurred, please try again later",
+      "text-10": "Your message has been sent"
+    },
+    "six": {
+      "text-1": "Socials network"
     }
   }
 }

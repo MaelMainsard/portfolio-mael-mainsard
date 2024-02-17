@@ -160,6 +160,9 @@
         "text-8": "Envoyer",
         "text-9": "Une erreur est survenu veuillez réesayer plus tard",
         "text-10": "Votre message à bien été envoyé"
+      },
+      "six": {
+        "text-1": "Réseaux sociaux"
       }
   }
 }
