@@ -16,8 +16,15 @@ jobs:
       - name : Installation des package npm
         run: npm i
 
+      - name : Créeation de la realease
+        run : npm run build
+
       - name : Creation d'un répertoire pour le bundle
         run: mkdir bundle-porfolio
+
+      - name: Copie du dossier dist dans le répertoire de bundle
+        run: cp -r dist/ bundle-portfolio
+  
 
       - name : Creation zip
         run: zip -r portfolio.zip bundle-porfolio
