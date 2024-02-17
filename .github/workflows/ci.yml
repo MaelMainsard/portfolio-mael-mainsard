@@ -3,7 +3,7 @@ name: CI pour porfolio
 on:
   push:
     branches:
-      - 'release'
+      - 'deploy'
 
 jobs:
 
@@ -46,7 +46,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: v0.0.1
-          release_name: Release 0.0.1
+          release_name: Release v0.0.1
 
       - name: Upload Release Asset
         uses: actions/upload-release-asset@v1
