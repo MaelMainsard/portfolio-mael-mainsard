@@ -8,6 +8,7 @@ import HomeMaxIcon from '@mui/icons-material/HomeMax';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import StorageIcon from '@mui/icons-material/Storage';
 
+
 import { useTranslation } from "react-i18next";
 
 const handleItemClick = (link) => {
@@ -72,29 +73,29 @@ export const SkillCard = ({ icon, text }) => {
     const data = dataMap[icon] || [];
     return (
         <Card className="w-48 h-48">
-            <CardBody className="flex flex-col items-center justify-center">
-                <IconComponent sx={{ fontSize: 50 }} />
-                <span className="font-s11 text-xs mt-4 text-center">{t(text)}</span>
-            </CardBody>
-            <CardFooter>
-                <Dropdown>
-                    <DropdownTrigger className='w-full'>
-                        <Button
-                            variant="bordered"
-                            className='text-wrap'
-                        >
-                            {t('two.text-8')}
-                        </Button>
-                    </DropdownTrigger>
-                    <DropdownMenu aria-label="Static Actions">
-                        {data.map((item, index) => (
-                            <DropdownItem key={index} onClick={() => handleItemClick(item.link)} endContent={<img src={item.image} className='w-5' alt={item.alt} />}>
-                                {item.label}
-                            </DropdownItem>
-                        ))}
-                    </DropdownMenu>
-                </Dropdown>
-            </CardFooter>
-        </Card>
+                <CardBody className="flex flex-col items-center justify-center">
+                    <IconComponent sx={{ fontSize: 50 }} />
+                    <span className="font-s11 text-xs mt-4 text-center">{t(text)}</span>
+                </CardBody>
+                <CardFooter>
+                    <Dropdown>
+                        <DropdownTrigger className='w-full'>
+                            <Button
+                                variant="bordered"
+                                className='text-wrap'
+                            >
+                                {t('two.text-8')}
+                            </Button>
+                        </DropdownTrigger>
+                        <DropdownMenu aria-label="Static Actions">
+                            {data.map((item, index) => (
+                                <DropdownItem key={index} onClick={() => handleItemClick(item.link)} endContent={<img src={item.image} className='w-5' alt={item.alt} />}>
+                                    {item.label}
+                                </DropdownItem>
+                            ))}
+                        </DropdownMenu>
+                    </Dropdown>
+                </CardFooter>
+            </Card>
     );
 };

@@ -1,8 +1,9 @@
-import react,{useState,useEffect} from 'react';
+import react,{useState,useEffect, useRef} from 'react';
 import { useTranslation } from "react-i18next";
 import {ProjectCard} from "../components/ProjectCard"
 import {CardHeader,CardFooter,Pagination, Card, CardBody,Dropdown,DropdownTrigger,Button,DropdownMenu,DropdownItem,Checkbox} from "@nextui-org/react";
 import FilterAltOffIcon from '@mui/icons-material/FilterAltOff';
+import { motion, useAnimation, useInView } from 'framer-motion';
 
 export const ProjectPage = () => {
 
@@ -26,6 +27,11 @@ export const ProjectPage = () => {
     const types = [...new Set(projects.map(project => project.type))];
     const fronts = [...new Set(projects.map(project => project.front))];
     const backs = [...new Set(projects.map(project => project.back))];
+
+    const ref = useRef(null);
+    const isToView = useInView(ref,{ once : true})
+    const mainControls = useAnimation();
+    const [isEnter,enter] = useState(false)
 
     useEffect(() => {
         filterProjects(selectedTypes, selectedFronts, selectedBacks);
@@ -77,6 +83,13 @@ export const ProjectPage = () => {
         setSelectedBacks([])
         setProjects(projetsList);
     }
+
+    useEffect(()=>{
+        if(isToView){
+            mainControls.start({ y: 0 })
+            enter(true)
+        }
+    },[isToView])
 
 
     return(
@@ -132,9 +145,15 @@ export const ProjectPage = () => {
                 </Button>
             </CardHeader>
             <CardBody>
-                <div className="flex flex-wrap gap-5 justify-center">
+                <div ref={ref} className="flex flex-wrap gap-5 justify-center">
                     {projects.map((project, subIndex) => {
-                        return <ProjectCard key={subIndex} {...project} />;
+                        return <motion.div
+                            whileHover={{ scale: 1.1 }}
+                            transition={{ duration: isEnter ? 0.3 : 0.5 }}
+                        >
+                            <ProjectCard key={subIndex} {...project} />
+                        </motion.div>
+
                     })}
                 </div>
             </CardBody>
