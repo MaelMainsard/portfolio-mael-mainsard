@@ -11,7 +11,7 @@ export const SectionThree = () => {
 
 
     return (
-        <div className="flex flex-col w-full justify-center align-middle items-center text-center mt-20">
+        <section id="projects" className="flex flex-col w-full justify-center align-middle items-center text-center">
             <span className=" font-s11 font-bold text-5xl mb-8">{t('three.text-1')}</span>
             <span className="font-s11 text-sm opacity-70 mb-8 w-8/12">
                 <SubAnimation text={t('three.text-2')}/>
@@ -31,7 +31,7 @@ export const SectionThree = () => {
                         <InternationalPage/>
                     </Tab>
                 </Tabs>
-            </div>  
-        </div>
+            </div> 
+        </section>
     );
 }
